@@ -1,1 +1,37 @@
-gfdgfdg
+<script>
+var physical = parseInt(prompt("Nhập Điểm Vật Lý:"));
+var biology = parseInt(prompt("Nhập Điểm Sinh Học:"));
+var chemistry = parseInt(prompt("Nhập Điểm Hóa Học:"));
+document.write('Physical:'+ physical);
+document.write('<br/>');
+document.write('Biology:'+ biology);
+document.write('<br/>');
+document.write('Chemistry:'+ chemistry);
+document.write('<br/>');
+var sum = physical + biology + chemistry;
+var average = (physical + biology + chemistry) /3;
+document.write('Sum:'+ sum);
+document.write('<br/>');
+document.write('Averge:'+ average);
+</script>
+
+
+<script>
+celsius = prompt("Enter C:");
+var cel = parseInt(celsius);
+var fah = ((9*cel)/5)+32;
+document.write('Fahrenheit:'+ fah);
+</script>
+
+<script>
+R = prompt("Enter R:");
+var S = Math.pow(R,2)* Math.PI;
+document.write('S:'+ S);
+</script>
+
+
+<script>
+D = prompt("Enter D:");
+var C = D * Math.PI;
+document.write('C:'+C);
+</script>

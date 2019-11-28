@@ -1,0 +1,8 @@
+var inputwidth;
+var inputheight;
+inputwidth = prompt("Nhập Chiều Cao");
+inputheight = prompt("Nhập Chiều Rộng");
+var width = parseInt(inputwidth);
+var heigth = parseInt(inputheight);
+var area = width * heigth;
+document.write("The Area is:" +area);
