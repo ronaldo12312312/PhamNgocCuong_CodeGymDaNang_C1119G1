@@ -1,0 +1,34 @@
+<label for="">Amount: </label>
+  <input id="amountmoney" type="text" name="amount">
+  <label for="">From Currency</label>
+  <select id="fromCurrency">
+    <option value="vnd">VN Đồng</option>
+    <option value="usd">US Dollar</option>
+  </select>
+  <label for="">To Currency</label>
+  <select id="toCurrency">
+    <option value="usd">US Dollar</option>
+    <option value="vnd">VN Đồng</option>
+  </select>
+  <input type="submit" value="Convert" onclick="myFunction();">
+<script>
+  function myFunction() {
+    var amount = parseInt(document.getElementById("amountmoney").value);
+    var fromCurrency = document.getElementById("fromCurrency").value;
+    var toCurrency = document.getElementById("toCurrency").value;
+    var dongConveter = amount / 23000;
+    var dollarConverter = amount * 23000;
+    if (amount < 0) {
+    } else {
+      if (fromCurrency == "vnd" && toCurrency == "vnd" || fromCurrency == "usd" && toCurrency == "usd") {
+        alert("Result:" + amount);
+      }
+      if (fromCurrency == "vnd" && toCurrency == "usd") {
+        alert("Result: " + dongConveter + " dollars.");
+      }
+      if (fromCurrency == "usd" && toCurrency == "vnd") {
+        alert("Result: " + dollarConverter + " viet nam dongs.");
+      }
+    }
+  }
+</script>
