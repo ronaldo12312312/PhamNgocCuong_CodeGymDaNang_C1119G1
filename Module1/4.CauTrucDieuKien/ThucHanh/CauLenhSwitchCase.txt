@@ -1,0 +1,48 @@
+<input type="text" id="checkMonth"/>
+<button onclick="monthFunction();">Tính Số Ngày</button>
+<p id="showMonth"></p>
+<script>
+  function monthFunction() {
+    var month = parseInt(document.getElementById("checkMonth").value);
+    switch (month) {
+      case 1:
+        document.getElementById("showMonth").innerHTML = "Tháng 1 Có 31 Ngày";
+        break;
+      case 2:
+        document.getElementById("showMonth").innerHTML = "Tháng 2 Có 29 Ngày";
+        break;
+      case 3:
+        document.getElementById("showMonth").innerHTML = "Tháng 3 Có 31 Ngày";
+        break;
+      case 4:
+        document.getElementById("showMonth").innerHTML = "Tháng 4 Có 30 Ngày";
+        break;
+      case 5:
+        document.getElementById("showMonth").innerHTML = "Tháng 5 Có 31 Ngày";
+        break;
+      case 6:
+        document.getElementById("showMonth").innerHTML = "Tháng 6 Có 30 Ngày";
+        break;
+      case 7:
+        document.getElementById("showMonth").innerHTML = "Tháng 7 Có 31 Ngày";
+        break;
+      case 8:
+        document.getElementById("showMonth").innerHTML = "Tháng 8 Có 31 Ngày";
+        break;
+      case 9:
+        document.getElementById("showMonth").innerHTML = "Tháng 9 Có 30 Ngày";
+        break;
+      case 10:
+        document.getElementById("showMonth").innerHTML = "Tháng 10 Có 31 Ngày";
+        break;
+      case 11:
+        document.getElementById("showMonth").innerHTML = "Tháng 11 Có 30 Ngày";
+        break;
+      case 12:
+        document.getElementById("showMonth").innerHTML = "Tháng 12 Có 31 Ngày";
+        break;
+      default:
+        document.getElementById("showMonth").innerHTML = "Hãy Nhập Tháng";
+    }
+  }
+</script>

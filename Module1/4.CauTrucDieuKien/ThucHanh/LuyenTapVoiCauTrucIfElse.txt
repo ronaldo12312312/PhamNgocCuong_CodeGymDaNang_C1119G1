@@ -1,0 +1,28 @@
+B1
+<script>
+  var value = prompt('What is the "official" name of JavaScript?','');
+  if (value == 'ECMAScript'){
+    alert('Right');
+  } else {
+    alert("You don\'t know? ECMAScript!");
+  }
+</script>
+
+B2
+<script>
+  var userName = prompt("Who's There",'');
+  if (userName == 'Admin'){
+  } else if (userName == 'null'){
+    alert("Canceled");
+  }else {
+    alert("I Don't know you");
+  }
+  var pass = prompt('Password?','');
+  if (pass == 'TheMaster'){
+    alert("Wellcome");
+  }else if (pass == null){
+    alert("Canceled");
+  }else {
+    alert('Wrong password');
+  }
+</script>
