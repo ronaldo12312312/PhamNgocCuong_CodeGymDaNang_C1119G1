@@ -1,0 +1,19 @@
+B1 :
+<script>
+  var a = parseInt(prompt("a: "));
+  var b = parseInt(prompt("b: "));
+  result = (a + b < 4) ? 'Below' : 'Over';
+  alert(result);
+</script>
+B2:
+<script>
+  var Login = parseInt(prompt("Login"));
+  var message = (login == 'Employee') ?
+    'Hello' :
+    (login == 'Director') ?
+      'Greetings' :
+      (login == '') ?
+        'No login' :
+        '';
+  alert(message);
+</script>
