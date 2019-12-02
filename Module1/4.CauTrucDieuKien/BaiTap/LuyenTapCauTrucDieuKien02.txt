@@ -44,3 +44,33 @@ B6:
     form.x.value = eval(x);
   }
 </script>
+B7:
+<script>
+  var x, x1, x2;
+  var a = parseInt(prompt("Nhập A") * 1);
+  var b = parseInt(prompt("Nhập B") * 1);
+  var c = parseInt(prompt("Nhập C") * 1);
+  var delta = b * b - 4 * a * c;
+  if (a == 0) {
+    alert("Không Phải Phương Trình Bậc 2");
+  }
+  if (delta > 0) {
+    x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    x2 = (-b - Math.sqrt(delta)) / (2 * a);
+    alert("Phương Trình Có 2 Nghiệm: " + x1 + x2);
+  } else if (delta == 0) {
+    x = -b / 2 * a;
+    alert("Phương Trình Có Nghiệm Kép: " + x);
+  } else {
+    alert("Phương Trình Vô Nghiệm");
+  }
+</script>
+B8:
+<script>
+  var tuoiNguoi = parseInt(prompt("Nhập Tuổi"));
+  if (tuoiNguoi >= 0 && tuoiNguoi <= 120) {
+    alert("Đây Là Tuổi Của Bạn");
+  }else {
+    alert("Bạn Nhập Sai Tuổi Hãy Nhập Lại");
+  }
+</script>

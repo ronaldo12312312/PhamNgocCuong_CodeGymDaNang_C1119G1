@@ -34,11 +34,11 @@ B4:
   var y = parseFloat(prompt("Nhập Y"));
   var z = parseFloat(prompt("Nhập Z"));
   if (x > y && x > z) {
-    document.write("X Là Số Nguyên Lớn Nhất");
+    alert("X Là Số Nguyên Lớn Nhất");
   } else if (y > x && y > z) {
-    document.write("Y Là Số Nguyên Lớn Nhất");
+    alert("Y Là Số Nguyên Lớn Nhất");
   } else {
-    document.write("Z Là Số Nguyên Lớn Nhất");
+    alert("Z Là Số Nguyên Lớn Nhất");
   }
 </script>
 B5:
