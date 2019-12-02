@@ -1,0 +1,46 @@
+B1:
+<script>
+  var c = parseInt(prompt("Nhập Độ C"));
+  var f = (c * 1.8) + 32;
+  alert('Độ F:' + f);
+</script>
+B2:
+<script>
+  var meter = parseInt(prompt("Nhập Mét"));
+  var feet = meter * 3.2808;
+  alert('Feet:' + feet);
+</script>
+B3:
+<script>
+  var canhHinhVuong = parseInt(prompt("Nhập Cạnh Hình Vuông"));
+  var dienTich = canhHinhVuong * canhHinhVuong;
+  alert('Diện Tích Hình Vuông :' + dienTich);
+</script>
+B4:
+<script>
+  var chieuDai = parseInt(prompt("Nhập Chiều Dài"));
+  var chieuRong = parseInt(prompt("Nhập Chiều Rộng"));
+  var dienTich = chieuDai * chieuRong;
+  alert('Diện Tích Hình Chữ Nhật:' + dienTich);
+</script>
+B5:
+<script>
+  var canhA = parseInt(prompt("Nhập Cạnh A"));
+  var canhB = parseInt(prompt("Nhập Cạnh B"));
+  var dienTich = (0.5 * canhA) * canhB;
+  alert('Diện Tich:' + dienTich);
+</script>
+B6:
+<script>
+  var a = parseFloat(prompt("Nhập A"));
+  var b = parseFloat(prompt("Nhập B"));
+  // var x = -a / b;
+  if (a==0){
+    if(b==0) alert('Phương Trình Vô Số Nghiệm:');
+    else alert('Phường Trình Vô Nghiệm');
+  } else {
+    alert('Phương Trình Có 1 Nghiệm:');
+    x = -b / a;
+    form.x.value = eval(x);
+  }
+</script>

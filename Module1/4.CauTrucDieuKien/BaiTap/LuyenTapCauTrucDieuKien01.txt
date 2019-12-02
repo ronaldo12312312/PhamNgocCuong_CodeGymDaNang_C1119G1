@@ -1,0 +1,79 @@
+B1:
+<script>
+  var a = parseInt(prompt("Nhập A"));
+  var b = parseInt(prompt("Nhập B"));
+  if (a % b == 0) {
+    alert("A Chia Hết Cho B")
+  } else if (a / b !== 0) {
+    alert("A Không Chia Hết Cho B");
+  }
+</script>
+B2:
+<script>
+  var tuoi = parseInt(prompt("Nhập Tuổi"));
+  if (tuoi >= 14) {
+    alert("Đủ Tuổi Vào Lớp 10");
+  } else if (tuoi < 14) {
+    alert("Không Đủ Tuổi Vào Lớp 10");
+  }
+</script>
+B3:
+<script>
+  var a = parseInt(prompt("Nhập A Để Kiểm Tra"));
+  if (a > 0) {
+    document.write("A Lớn Hơn 0");
+  } else if (a < 0) {
+    document.write("A Nhỏ Hơn 0");
+  }else {
+    document.write("A Bằng 0");
+  }
+</script>
+B4:
+<script>
+  var x = parseFloat(prompt("Nhập X"));
+  var y = parseFloat(prompt("Nhập Y"));
+  var z = parseFloat(prompt("Nhập Z"));
+  if (x > y && x > z) {
+    document.write("X Là Số Nguyên Lớn Nhất");
+  } else if (y > x && y > z) {
+    document.write("Y Là Số Nguyên Lớn Nhất");
+  } else {
+    document.write("Z Là Số Nguyên Lớn Nhất");
+  }
+</script>
+B5:
+<script>
+  var kiemTra = parseInt(prompt("Nhập Điểm Kiểm Tra"));
+  var giuaKy = parseInt(prompt("Nhập Điểm Giữa Kỳ"));
+  var cuoiKy = parseInt(prompt("Nhập Điểm Cuối Kỳ"));
+  if (giuaKy + cuoiKy + kiemTra >= 25) {
+    document.write("Học Sinh Giỏi");
+  } else if (giuaKy + cuoiKy + kiemTra >= 20) {
+    document.write("Học Sinh Khá");
+  } else if (giuaKy + cuoiKy + kiemTra >= 15) {
+    document.write("Học Sinh Trung Bình");
+  } else {
+    document.write("Học Sinh Yếu");
+  }
+</script>
+B6:
+<script>
+  var soLuong = parseInt(prompt("Nhập Số Lượng"));
+  if (soLuong >= 50000) {
+    document.write("Hoa Hồng Của Bạn Là:" + soLuong * 0.2); // Nếu Số Lượng Bán Ra Trên 50000 thì được hưởng 20%
+  } else if (soLuong < 50000) {
+    document.write("Hoa Hồng Của Bạn Là:" + soLuong * 0.1); // Nêu Số Lượng Bán Ra dưới 50000 thì được hưởng 10%
+  }
+</script>
+B7:
+<script>
+  var giaDinh1 = parseInt(prompt("Nhập Số Phút Gia Đình 1"));
+  var giaDinh2 = parseInt(prompt("Nhập Số Phút Gia Đình 2"));
+  var giaDinh3 = parseInt(prompt("Nhập Số Phút Gia Đình 3"));
+  var thanhTien = (giaDinh1 + giaDinh2 + giaDinh3) * 1500;
+  alert('Gia Đình 1:' + giaDinh1 + '\n'+
+  'Gia Đình 2:' + giaDinh2 + '\n'+
+  'Gia Đình 3:' + giaDinh3 + '\n'+
+  +'Total:' + thanhTien);
+
+</script>
