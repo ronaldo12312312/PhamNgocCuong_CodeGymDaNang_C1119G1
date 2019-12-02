@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  var namecustomer = prompt("Enter Name Customer:");
+  var passport = prompt("Enter Passport:");
+  var brithday = prompt("Enter Brithday:");
+  var email = prompt("Enter Email:");
+  var address = prompt("Enter Address:");
+  var customer = prompt("Enter Customer (Diamond, Platinum, Gold, Silver, Member):");
+  var sale = prompt("Enter Sale:");
+  var numbers = prompt("Enter Number:");
+  var rentdays = prompt("Enter Rentday:");
+  var service = prompt("Enter Service (Villa, House, Room):");
+  var rooms = prompt("Enter Rooms (Vip, Business,  Normal):");
+  var villa = 'villa';
+  var house = 'House';
+  var room = 'room';
+  var totalPays = 500 * rentdays * (1 - sale) / 100;
+  alert('Name:' + namecustomer + '\n' + 'Passport:' + passport + '\n' +
+    'Brithday:' + brithday + '\n' + 'Email:' + email + '\n' + 'Address:' + address + '\n' + 'Customer:' + customer +
+    '\n' + 'Sale:' + sale + '\n' + 'Numbers:' + numbers + '\n' + 'RentDay:' + rentdays + '\n' + 'Service:' + service +
+    '\n' + 'Rooms:' + rooms + '\n' + 'totalPays:');
+
+</script>
+</body>
+</html>
