@@ -1,0 +1,23 @@
+B1:
+<body>
+<h2>Java Script Loops</h2>
+<p id="demo"></p>
+<script>
+  var text = "";
+  var i;
+  for (i = 0; i < 5; i++) {
+    text += "The Number is: " + i + '\n';
+  }
+  document.getElementById("demo").innerText = text;
+</script>
+B2:
+<script>
+  var num = prompt("Nhập Số: ");
+  var total = 0;
+  var i = 1;
+  for (; i <= num; i += 1) {
+    // num += "Total: " + i + '\n';
+    total = total + 1;
+  }
+  alert(total);
+</script>

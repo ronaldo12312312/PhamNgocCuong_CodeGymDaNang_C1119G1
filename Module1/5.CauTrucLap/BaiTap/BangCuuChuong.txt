@@ -1,0 +1,13 @@
+<script>
+  var ketQua = "<table border=\"5px\">";
+  for (var dong = 1; dong <= 9; dong++) {
+    ketQua += "<tr>";
+    for (var cot = 2; cot <= 9; cot++) {
+      var o = cot + " x " + dong + " = " + (cot * dong);
+      ketQua += "<td>" +o + "</td>";
+    }
+    ketQua += "</tr>";
+  }
+  ketQua += "</table>";
+  document.write(ketQua);
+</script>

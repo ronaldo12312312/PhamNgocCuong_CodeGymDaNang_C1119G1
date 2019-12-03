@@ -1,0 +1,7 @@
+<script>
+  var value = null;
+  do {
+    value = prompt("Nhập Vào Từ 1 -> 10");
+  } while (value < 1 || value > 10)
+  alert('Số Bạn Vừa Nhập Là ' + value);
+</script>

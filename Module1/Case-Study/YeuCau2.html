@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>YeuCau2</title>
+</head>
+<body>
+<script>
+  var nameCustomer = "Phạm Ngọc Cường";
+  var emailCustomer = "nlandy.pham@gmail.com";
+  var idCard = "123456789";
+  var birthdayCustomer = "19/04/1993";
+  var addressCustomer = "Đà Nẵng";
+  var typeCustomer = "Diamond";
+  var discount = "20";
+  var numberOfAccompanying = 2;
+  var typeRoom = "Business";
+  var rentDays = 10;
+  var typeService = "Villa";
+  var moneyPerdays = 0;
+  var menu = prompt("1.Show Information Customer.\n2.Edit Information Customer.\n3.Show the amount to be paid after discount.");
+  var menu1 = parseInt(menu);
+  switch (menu1) {
+    case 1:
+      alert('Information Of Customer' + '\n' + '1.Name Customer: ' + nameCustomer + '\n' +
+        '2.Email Customer: ' + emailCustomer + '\n' +
+        '3.ID Card: ' + idCard + '\n' +
+        '4.Birthday Customer: ' + birthdayCustomer + '\n' +
+        '5.Address Customer: ' + addressCustomer + '\n' +
+        '6.Type Customer: ' + typeCustomer + '\n' +
+        '7.Discount: ' + discount + '\n' +
+        '8.Number Of Accompanying: ' + numberOfAccompanying + '\n' +
+        '9.Type Room: ' + typeRoom + '\n' +
+        '10.RentDays: ' + rentDays + '\n' +
+        '11.Type Service: ' + typeService + '\n' +
+        '12.Money Perdays: ' + moneyPerdays + '\n');
+      break;
+    case 2:
+      var menu2 = prompt('Choose Information You Want Edit:' + '\n' + '1.Name Customer: ' + nameCustomer + '\n' +
+        '2.Email Customer: ' + emailCustomer + '\n' +
+        '3.ID Card: ' + idCard + '\n' +
+        '4.Birthday Customer: ' + birthdayCustomer + '\n' +
+        '5.Address Customer: ' + addressCustomer + '\n' +
+        '6.Type Customer: ' + typeCustomer + '\n' +
+        '7.Discount: ' + discount + '\n' +
+        '8.Number Of Accompanying: ' + numberOfAccompanying + '\n' +
+        '9.Type Room: ' + typeRoom + '\n' +
+        '10.RentDays: ' + rentDays + '\n' +
+        '11.Type Service: ' + typeService + '\n' +
+        '12.Money Perdays: ' + moneyPerdays + '\n');
+      var menu3 = parseInt(menu2);
+      switch (menu3) {
+        case 1:
+          var nameCustomer1 = prompt("1.Name Customer:" + nameCustomer);
+          alert('Name Customer:' + nameCustomer1);
+          break;
+        case 2:
+          var emailCustomer1 = prompt("2.Email Customer:" + emailCustomer);
+          alert('Email Customer:' + emailCustomer1);
+          break;
+        case 3:
+          var idCard1 = prompt("3.ID Card:" + idCard);
+          alert('Id Card:' + idCard1);
+          break;
+        case 4:
+          var birthdayCustomer1 = prompt("4.Birthday Customer:" + birthdayCustomer);
+          alert('Birthday Customer:' + birthdayCustomer1);
+          break;
+        case 5:
+          var addressCustomer1 = prompt("5.Address Customer:" + addressCustomer);
+          alert('5.Address Customer:' + addressCustomer1);
+          break;
+        case 6:
+          var typeCustomer1 = prompt("6.Type Customer:" + typeCustomer);
+          alert('6.Type Customer:' + typeCustomer1);
+          break;
+        case 7:
+          var discount1 = prompt("7.Discount:" + discount);
+          alert('7.Discount:' + discount1);
+          break;
+        case 8:
+          var numberOfAccompanying1 = prompt("8.Number Of Accompanying:" + numberOfAccompanying);
+          alert('8.Number Of Accompanying:' + numberOfAccompanying1);
+          break;
+        case 9:
+          var typeRoom1 = prompt("9.Type Room:" + typeRoom);
+          alert('9.Type Room:' + typeRoom1);
+          break;
+        case 10:
+          var rentDays1 = prompt("10.RentDays:" + rentDays);
+          alert('10.RentDays:' + rentDays1);
+          break;
+        case 11:
+          var typeService1 = prompt("11.Type Service:" + typeService);
+          alert('11.Type Service:' + typeService1);
+          break;
+      }
+      break;
+    case 3:
+      alert('3.Show the amount to be paid after discount.');
+      break;
+    default:
+      alert('Faild');
+  }
+
+
+</script>
+</body>
+</html>

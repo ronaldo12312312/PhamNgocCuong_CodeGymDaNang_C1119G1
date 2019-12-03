@@ -1,0 +1,19 @@
+B1:
+<script>
+  var num = parseInt(prompt("Enter A Number: "));
+  var total = 0;
+  while (num != -1) {
+    num = parseInt(prompt("Enter A Number:"));
+    alert(num);
+    total = total + num;
+  }
+  alert(total);
+</script>
+B2:
+<script>
+  var i = 1;
+  while (i < 100) {
+    document.write("<hr width =" + i + "%>");
+    i++;
+  }
+</script>
