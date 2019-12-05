@@ -1,0 +1,27 @@
+<script>
+  find();
+  function find() {
+    var number = prompt("Input a number please: ");
+    var n = 2;
+    var count = 0;
+    var result = "";
+    while (count < number) {
+      if (isPrime(n)) {
+        result += (n + " ");
+        count++;
+      }
+      n++;
+    }
+    document.write(result);
+  }
+  function isPrime(n) {
+    var isPrime = true;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+      if (n % i === 0) {
+        isPrime = false;
+        break;
+      }
+    }
+    return isPrime;
+  }
+</script>
